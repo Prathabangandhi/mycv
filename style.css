@@ -1,0 +1,113 @@
+*{
+    letter-spacing: 1px;
+}
+@media screen and (max-width: 600px) {
+    .line{
+        position: absolute; 
+        top: 0%;
+        left: 0%;
+        margin-top: 0%;
+        letter-spacing: 1px;
+        height: 2500px;
+        width: 400px;
+        background-color: purple ;
+    }
+    .ex{
+        position: absolute; 
+        left: 400px;
+        width:auto;
+        top:0%;
+        height: 2500px;
+    
+     color: black; 
+     background-color: darkgrey;  
+    }
+}
+@media screen and (min-width: 650px) {
+    .line{
+        position: absolute; 
+        top: 0%;
+        left: 0%;
+        margin-top: 0%;
+        letter-spacing: 1px;
+        height: 2200px;
+        width: 400px;
+        background-color: purple ;
+    }
+    .ex{
+        position: absolute; 
+        left: 400px;
+        width:auto;
+        top:0%;
+        height: 2200px;
+    
+     color: black; 
+     background-color: darkgrey;  
+    }
+}
+.line{
+    position: absolute; 
+    top: 0%;
+    left: 0%;
+    margin-top: 0%;
+    letter-spacing: 1px;
+   
+    width: 400px;
+    background-color: purple ;
+}
+.line img{
+    margin-top:70px ;
+    margin-left: 130px;
+    
+}
+.info{
+    color: white;
+    padding-top: 230px;
+    margin-left: 30px;
+    font-family: Arial ;
+    align-self: auto;
+    align-items: flex-start;
+    align-content: last baseline;
+}
+.info h2{
+    color: yellow;
+}
+.info label{
+    color: black;
+    
+}
+.line a{
+    color: white;
+    transition: 0.4s ease-in-out;
+
+}
+.line a:hover{
+    color: rgb(115, 255, 0);
+}
+.line a:visited{
+    color: rgb(9, 0, 128);
+}
+.ex{
+    position: absolute; 
+    left: 400px;
+    width:auto;
+    top:0%;
+    
+
+ color: black; 
+ background-color: darkgrey;  
+}
+.ex h1{
+font: 800 40px Arial;
+
+-webkit-text-fill-color: yellow;
+-webkit-text-stroke: 2px ;
+-webkit-text-stroke-color: rgb(255, 38, 0);
+text-shadow: 6px 8px 6px rgb(128, 56, 56);
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-right: 50px;
+    font-size: 50px;
+    letter-spacing: 3px;
+}
+
